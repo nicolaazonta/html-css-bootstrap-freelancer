@@ -9,17 +9,6 @@
     --bg-card-5: #0E38B5;
     --bg-card-6: #CCB2A3;
 }
-.debug section,
-.debug .footer_top,
-.debug .footer_bottom{
-    height: 400px;
-}
-.debug .card{
-    height: 300px;
-}
-/* .debug nav {
-    height: 200px;
-} */
 
 #app_navbar{
     background-color: var(--bg-primary);
@@ -27,19 +16,31 @@
 }
 #start{
     background-color: var(--bg-secondary);
+    color: var(--bg-light);
 }
 #portfolio{
     background-color: var(--bg-light);
+    color: var(--bg-primary);
 }
 #about{
     background-color: var(--bg-secondary);
+    color: var(--bg-light);
 }
 #contact{
     background-color: var(--bg-light);
+    color: var(--bg-primary);
+
+}
+#app_footer{
+    color: var(--bg-light);
 }
 #app_footer .footer_top{
     background-color: var(--bg-card-4);
 }
 #app_footer .footer_bottom{
     background-color: var(--bg-primary);
+}
+.container_verysmall{
+    max-width: 500px;
+
 }
