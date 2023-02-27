@@ -1,0 +1,45 @@
+:root{
+    --bg-primary: #2C3E50;
+    --bg-secondary: #1ABC9C;
+    --bg-light: #FFFFFF;
+    --bg-card-1: #BA4B63;
+    --bg-card-2: #1EA4B6;
+    --bg-card-3: #140F0F;
+    --bg-card-4: #1C83C1;
+    --bg-card-5: #0E38B5;
+    --bg-card-6: #CCB2A3;
+}
+.debug section,
+.debug .footer_top,
+.debug .footer_bottom{
+    height: 400px;
+}
+.debug .card{
+    height: 300px;
+}
+/* .debug nav {
+    height: 200px;
+} */
+
+#app_navbar{
+    background-color: var(--bg-primary);
+    height: 3rem;
+}
+#start{
+    background-color: var(--bg-secondary);
+}
+#portfolio{
+    background-color: var(--bg-light);
+}
+#about{
+    background-color: var(--bg-secondary);
+}
+#contact{
+    background-color: var(--bg-light);
+}
+#app_footer .footer_top{
+    background-color: var(--bg-card-4);
+}
+#app_footer .footer_bottom{
+    background-color: var(--bg-primary);
+}
