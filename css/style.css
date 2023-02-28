@@ -11,9 +11,8 @@
     --bg-card-6: #CCB2A3;
 }
 
-#app_navbar{
+#app_navbar .navbar{
     background-color: var(--bg-primary);
-    color: var(--bg-light);
 }
 #start{
     background-color: var(--bg-secondary);
@@ -47,9 +46,6 @@
 #app_footer .footer_bottom{
     background-color: var(--bg-primary);
 }
-.container_verysmall{
-    max-width: 500px;
-}
 .divider{
     height: 3px;    
     width: 7rem;
@@ -60,4 +56,12 @@
 }
 .divider_dark{
     background-color: var(--bg-primary);
+}
+.circle{
+    width: 2rem;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid var(--bg-light);
 }

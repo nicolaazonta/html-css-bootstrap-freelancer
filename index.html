@@ -14,22 +14,22 @@
 <body>
     <header>
         <nav id="app_navbar" class=""><!-- /#app_navbar -->
-            <nav class="navbar navbar-expand-lg text-uppercase ">
+            <nav class="navbar navbar-dark navbar-expand-lg text-uppercase">
                 <div class="container">
-                  <a class="navbar-brand text-light" href="#">start bootstrap</a>
-                  <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                  <a class="navbar-brand" href="#">start bootstrap</a>
+                  <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class= "navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active  text-light" aria-current="page" href="#">portfolio</a>
+                        <a class="nav-link active " aria-current="page" href="#">portfolio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#">about</a>
+                        <a class="nav-link active" aria-current="page" href="#">about</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#">contact</a>
+                        <a class="nav-link active" aria-current="page" href="#">contact</a>
                       </li>
                     </ul>                
                   </div>
@@ -39,8 +39,8 @@
     </header>
 
     <main id="app_main"><!-- /#app_main -->
-        <section id="start"><!-- /#start -->
-            <div class="container-lg py-2 py-md-4"><!-- container lg-100% to 768px -->
+        <section id="start" class=""><!-- /#start -->
+            <div class="container-lg py-3 py-md-5"><!-- container lg-100% to 768px -->
                 <div class="row"><!-- /.row -->
                     <div class="col border-dark text-center"><!-- /.col -->
                         <img class="img-fluid" src="./img/avatar.svg" alt="">
@@ -60,7 +60,7 @@
         </section>
 
         <section id="portfolio"><!-- /#portfolio -->
-            <div class="container-lg">
+            <div class="container-lg py-3 py-md-5">
                 <div class="title text-uppercase text-center pt-3">
                     <h3 class="">portfolio</h3>
                     <div class="d-flex justify-content-center align-items-center py-1 decoration_light">
@@ -110,7 +110,7 @@
         </section>
 
         <section id="about"><!-- /#about -->
-            <div class="container py-3 px-3 px-md-5"><!-- /.container-s -->
+            <div class="container py-3 py-md-5 px-3 px-md-5"><!-- /.container-s -->
 
                 <div class="title text-uppercase text-center py-3">
                     <h3 class="">about</h3>
@@ -131,7 +131,10 @@
                 </div>
                 <div class="row">
 
-                    <button type="button" class="col-auto mx-auto btn btn-outline-light">Light</button>
+                    <button type="button" class="col-auto mx-auto btn btn-outline-light">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span>Download</span>
+                    </button>
 
                 </div>
 
@@ -143,7 +146,7 @@
         </section>
         
         <section id="contact_me"><!-- /#contact_me -->
-            <div class="container py-3 px-3 px-md-5"><!-- /.container-s -->
+            <div class="container py-3 py-md-5 px-3 px-md-5"><!-- /.container-s -->
 
                 <div class="title text-uppercase text-center py-3">
                     <h3 class="">contact me</h3>
@@ -157,7 +160,7 @@
                 <span class="border-bottom py-1 d-block">Email adress</span>
                 <span class="border-bottom py-1 d-block">Phone number</span>
                 <span class="border-bottom py-3 pb-5 d-block">Message</span>
-                <button type="button" class="mt-2 btn btn-outline-light">Light</button>
+                <button type="button" class="mt-2 btn btn-outline-light">Send</button>
 
             </div>
         </section>   
@@ -166,32 +169,33 @@
     <footer id="app_footer"><!-- /#app_footer -->
 
         <div class="footer_top py-4"><!-- /.footer_top -->
-            <div class="container-lg py-1"><!-- /.container-lg -->
+            <div class="container-lg py-3 py-md-5"><!-- /.container-lg -->
                 <div class="row text-center"><!-- /.row -->
-                    <div class="col-12 col-md-4"><!-- /.col-12 col-lg-4 -->
+                    <div class="col-12 col-md-4 py-3"><!-- /.col-12 col-lg-4 -->
                         <h4 class="text-uppercase">location</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis soluta qui magni nobis nesciunt consequatur aut vel dolorum incidunt debitis?</p>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
-                    <div class="col-12 col-md-4"><!-- /.col-12 col-lg-4 -->
+                    <div class="col-12 col-md-4 py-3"><!-- /.col-12 col-lg-4 -->
                         <h4 class="text-uppercase">around the web</h4>
-                        <div class="row">
-                            <div class="col">
-                                <i class="rounded-circle fa-brands fa-facebook-f"></i>
-                            </div>
-                            <div class="col">
+                        <div class="d-flex justify-content-center">
+                            
+                            <a href="#" class="text-decoration-none text-white circle rounded-circle mx-1">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none text-white circle rounded-circle mx-1">
                                 <i class="fa-brands fa-google-plus-g"></i>
-                            </div>
-                            <div class="col">
+                            </a>
+                            <a href="#" class="text-decoration-none text-white circle rounded-circle mx-1">
                                 <i class="fa-brands fa-twitter"></i>
-                            </div>
-                            <div class="col">
+                            </a>
+                            <a href="#" class="text-decoration-none text-white circle rounded-circle mx-1">
                                 <i class="fa-brands fa-linkedin-in"></i>
-                            </div>                           
+                            </a>                           
                         </div>
                     </div>
-                    <div class="col-12 col-md-4"><!-- /.col-12 col-lg-4 -->
+                    <div class="col-12 col-md-4 py-3"><!-- /.col-12 col-lg-4 -->
                         <h4 class="text-uppercase">about freelancer</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis soluta qui magni nobis nesciunt consequatur aut vel dolorum incidunt debitis?</p>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
                     </div>
                     
                 </div>
@@ -200,8 +204,8 @@
             
         </div>
 
-        <div class="footer_bottom py-3"><!-- /.footer_bottom -->
-            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+        <div class="footer_bottom py-3 py-md-5"><!-- /.footer_bottom -->
+            <p class="text-center">Copyright © Your Website 2019</p>
         </div>
         
 
