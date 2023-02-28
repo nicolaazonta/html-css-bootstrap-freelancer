@@ -2,6 +2,7 @@
     --bg-primary: #2C3E50;
     --bg-secondary: #1ABC9C;
     --bg-light: #FFFFFF;
+    --bg-footer-top: #3A546D;
     --bg-card-1: #BA4B63;
     --bg-card-2: #1EA4B6;
     --bg-card-3: #140F0F;
@@ -18,6 +19,9 @@
     background-color: var(--bg-secondary);
     color: var(--bg-light);
 }
+#start img{
+    width: 20%;
+}
 #portfolio{
     background-color: var(--bg-light);
     color: var(--bg-primary);
@@ -26,21 +30,34 @@
     background-color: var(--bg-secondary);
     color: var(--bg-light);
 }
-#contact{
+#contact_me{
     background-color: var(--bg-light);
     color: var(--bg-primary);
-
+}
+#contact_me button{
+    background-color: var(--bg-secondary);
+    color: var(--bg-light);
 }
 #app_footer{
     color: var(--bg-light);
 }
 #app_footer .footer_top{
-    background-color: var(--bg-card-4);
+    background-color: var(--bg-footer-top);
 }
 #app_footer .footer_bottom{
     background-color: var(--bg-primary);
 }
 .container_verysmall{
     max-width: 500px;
-
+}
+.divider{
+    height: 3px;    
+    width: 7rem;
+    margin: 0 2rem;
+}
+.divider_light{
+    background-color: var(--bg-light);
+}
+.divider_dark{
+    background-color: var(--bg-primary);
 }
