@@ -65,3 +65,11 @@
     align-items: center; 
     border: 1px solid var(--bg-light);
 }
+#contact_me input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--bg-primary);
+}
+#contact_me .special_input{
+    padding-bottom: 5rem;
+}
