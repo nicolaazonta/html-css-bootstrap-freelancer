@@ -12,7 +12,7 @@
 
 #app_navbar{
     background-color: var(--bg-primary);
-    height: 3rem;
+    color: var(--bg-light);
 }
 #start{
     background-color: var(--bg-secondary);
